@@ -1,0 +1,73 @@
+.image {
+    height: 480px;
+    width: 640px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-card {
+    height: 100px;
+    width: 640px;
+    background-color: #c3baba;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.right-top {
+    display: flex;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.header>p {
+    margin: 10px;
+    color: white;
+}
+
+.cerchio {
+    /* position: fixed; */
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.svg01,
+.svg02,
+.svg03 {
+    width: 50px;
+    margin: 10px;
+}
+
+* {
+    font-family: "Times New Roman", serif;
+    font-size: 20px;
+}
+
+.bottom-card {
+    height: 200px;
+    width: 640px;
+    border-radius: 0px 0px 40px 40px;
+    background-color: #e0e1dd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bottom-card>p {
+    margin: 0px 10px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+/*non so se fosse necessiaro o meno mettere le query, però non wrap il layout è responsivo e rimane coerente con le 3 immagini richieste dall'esercizio.*/
